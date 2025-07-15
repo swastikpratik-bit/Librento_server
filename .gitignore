@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Configuration directory
+config/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist/
+build/
+
+# Coverage reports
+coverage/
+
+# PM2 logs
+pids/
+*.pid
+*.seed
+
+# VSCode settings
+.vscode/
+
+# Optional cache
+.cache/
+.next/
+
+# TypeScript (if using)
+*.tsbuildinfo
+
+# Prisma (if using)
+prisma/migrations/
