@@ -23,6 +23,7 @@ export async function sendVerificationCode(email, verificationCode, res) {
 
     return res.status(200).json({
       success: true,
+      email,
       message: "Verification code sent successfully",
     });
   } catch (error) {
